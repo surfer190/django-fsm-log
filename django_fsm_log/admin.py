@@ -22,6 +22,7 @@ class StateLogInline(GenericTabularInline):
         'state',
         'by',
         'timestamp',
+        'description'
     )
 
     def get_readonly_fields(self, request, obj=None):
